@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Differences</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Text Differences</h1>
+    <div>
+        <label for="text1">Enter the first text:</label>
+        <textarea id="text1" rows="5"></textarea>
+    </div>
+    <div>
+        <label for="text2">Enter the second text:</label>
+        <textarea id="text2" rows="5"></textarea>
+    </div>
+    <div>
+        <button onclick="highlightDifferences()">Highlight Differences</button>
+    </div>
+    <div class="output-container" id="output">
+    </div>
+
+    <script src="diff.js"></script>
+</body>
+</html>
